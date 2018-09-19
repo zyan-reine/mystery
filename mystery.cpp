@@ -10,7 +10,7 @@ void print(auto A)
    cout<<endl;
 }
 
-void mystery1(auto& D)
+void mystery1(auto& Data)
 {
   cout<<endl<<"Mystery 1"<<endl<<"---------------------"<<endl;
 
@@ -20,7 +20,7 @@ void mystery1(auto& D)
 	if ( Data[ i ] < Data[ j ] )
 	    swap( Data[ i ] , Data[ j ] );
 
-    print(D);
+    print(Data);
   }//end outer for (this brace is needed to include the print statement)
 
 }
